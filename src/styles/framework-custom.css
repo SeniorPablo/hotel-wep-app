@@ -1,0 +1,35 @@
+.accordion-item, .accordion-header > button {
+    background: transparent;
+    color: #fff;
+    border: none;
+}
+
+.accordion-button:focus {
+    border-color: none;
+    box-shadow: none;
+}
+
+.accordion-body {
+    padding: 0; 
+}
+
+.btn-check:focus+.btn-outline-info, 
+.btn-outline-info:focus {
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    background-image: url(../assets/images/arrow-down.svg)  
+}
+
+.modal__close {
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+.modal-header > p {
+    margin-bottom: 0;
+    font-size: 22px;
+    text-align: center;
+}

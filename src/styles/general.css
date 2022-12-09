@@ -1,0 +1,192 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: Roboto;
+}
+
+.section {
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    border-radius: 0.25rem;
+    height: 100%;
+    max-height: calc(100vh - 10rem);
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.create__form {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    background: #fff 0 0 no-repeat padding-box;
+    box-shadow: 0 0 5px rgb(0 0 0 / 40%);
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.create__form > p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.input__group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input__group > label {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.input__group > input {
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 20px;
+}
+
+.input__group > input:focus {
+    outline: none;
+}
+
+input:-webkit-autofill { 
+    -webkit-background-clip: text;
+}
+
+.create__form > button {
+    border: none;
+    font-size: 22px;
+    width: 100%;
+    color: #fff;
+    height: 50px;
+    background-color: #354052;
+    border-radius: 30px;
+}
+
+.admin__view {
+    width: 100%;
+    height: 100%;
+}
+
+.loading__container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading__container > span {
+    width: 300px;
+    height: 300px;
+}
+
+.card__custom {
+    background: #fff 0 0 no-repeat padding-box;
+    box-shadow: 0 0 5px rgb(0 0 0 / 40%);
+    border-radius: 15px;
+    padding: 15px 25px;
+    max-width: 350px;
+    width: 100%;
+    min-height: 400px;
+    margin-bottom: 20px; 
+}
+
+.card__group {
+    margin-bottom: 10px;
+}
+
+.card__group > p {
+    margin-bottom: 0;
+}
+
+.card__group > p:nth-child(1) {
+    font-weight: bold;
+}
+
+.line {
+    border: 1.5px solid #c8c8c8;
+}
+
+.card__controls {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card__controls > button {
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    color: #354052;
+}
+
+.card__controls > button:hover {
+    background-color: #354052;
+    background-color: #354052;
+    color: #fff;
+    border-radius: 100%;
+}
+
+.cards__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.section:hover::-webkit-scrollbar-thumb   {
+    visibility : visible;
+}
+
+.section::-webkit-scrollbar {
+    width: 5px;
+}
+
+.section::-webkit-scrollbar-thumb {
+    background: darkgrey;
+    border-radius: 50px;
+    visibility: hidden;
+    transition: all 0.5s ease;
+}
+
+.modal__group--inline {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modal__update--button {
+    background-color: #354052;
+    color: #fff;
+    border: none;
+    font-size: 22px;
+    border-radius: 30px;
+    padding: 8px 20px;
+}
+
+.modal__cancel--button {
+    background-color: transparent;
+    color: #354052;
+    border: 1px solid #354052;
+    font-size: 22px;
+    border-radius: 30px;
+    padding: 8px 20px;
+}
+
+.modal__delete--button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    font-size: 22px;
+    border-radius: 30px;
+    padding: 8px 20px;
+}
+
+.warning__information--text {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
